@@ -25,9 +25,9 @@ gen=1;
 while(gen <= maxGen)
 xnew = updatepopulation(x,f);
 xnew = trimr(mini,maxi,xnew);
-
+%% EliteLocalSearchPorsedue
 xnew=EliteLocalSearch(xnew,f,mini,maxi);
-
+%%
 fnew = objective(xnew);
 for i=1:pop
 if(fnew(i)<f(i))
