@@ -1,6 +1,11 @@
 %% MATLAB code of Rao-1 algorithm
 %% Unconstrained optimization
 %% Sphere function
+
+%% Rao, R. V. (2020). Rao algorithms: Three metaphor-less simple algorithms for solving optimization problems. 
+%% International Journal of Industrial Engineering Computations, 11(1), 107-130.
+%% doi:https://doi.org/10.5267/j.ijiec.2019.6.002
+
 function ELSRao1 ()
 clc
 clear all
